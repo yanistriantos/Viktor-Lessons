@@ -1,0 +1,23 @@
+Q: How does my computer understand python code?
+A: It doesn't. The PC (processor) understands only binary (zeroes and ones)
+
+Q: How does your computer transform python text (code) to binary
+A: There is a program (python.exe) which transforms your code into binary. It's called a compiler / interpretator
+
+Compiler: reads the whole file at once and can do optimizations
+Interpretator: reads your file line by line and executes it line by line
+
+C++ is a compiled language
+Python is an interpreted language
+
+High level vs low level languages:
+    low level - closer to the processor (binary) C/C++/C#/Assembly those languages requrie more from the developer. Very fast!
+    high level - more abstractions Python, JavaScript. They ease the development of applications and are slower than low level languages 
+
+Dynamically typed languages - languages that do NOT require explicit typing
+
+Convention: the usual way of doing things
+Integer - цяло число
+
+Explicit - ръчно трябва да го направиш
+Implicit - програмата го прави за теб
