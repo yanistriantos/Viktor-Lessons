@@ -32,6 +32,4 @@
    - Encouragement to practice with simple projects
    - Preview of branching and more advanced topics for future sessions
 
-LTS: latest stable version -> 
-
-yanistriantos yanarosbaby@gmail.com
+general terms spreadsheet -> LTS: latest stable version -> 
