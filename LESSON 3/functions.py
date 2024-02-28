@@ -10,6 +10,10 @@ import math
 def add_two_numbers(a, b):
     a + b
 
+# result will be
+result = add_two_numbers(15, 30)
+print(result)
+
 # using a reutrn statement
 def add_numbers(a, b):
     return a + b

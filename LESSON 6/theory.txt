@@ -1,0 +1,11 @@
+dynamic typing
+static typing
+operator: works on two values
+open termianl shortcut: ctrol + `
+code block
+code flow / program flow
+function calling
+list indexing (starting from 0, etc...)
+for loop (with index, with element)
+while loop
+iterable

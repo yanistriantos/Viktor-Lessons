@@ -1,0 +1,5 @@
+corner case: 
+clause: 
+implicit type conversion rules
+keyword (reserved word)
+literal

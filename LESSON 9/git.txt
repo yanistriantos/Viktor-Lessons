@@ -1,0 +1,33 @@
+1. Introduction to Version Control and Git
+   - Overview of version control and its importance
+   - History and evolution of Git
+   - Key concepts: distributed version control, snapshots, and changes
+
+2. Getting Started with Git
+   - Installing Git
+   - Basic Git configuration (user name, email)
+        1. git config user.name <user_name>
+        2. git config user.email <user.email>
+   - Introduction to Git repositories (init, clone)
+
+3. Git Basics
+   - Understanding the three states (modified, staged, committed) and the working directory
+   - Basic commands:
+     - `git status`: Check the status of your changes
+     - `git add`: Stage changes for commit
+     - `git commit`: Commit your staged changes
+     - `git diff`: See what has changed
+     - `git log`: View the commit history
+   - Ignoring files with `.gitignore`
+   - Viewing the commit history
+   - Undoing changes (checkout, revert, reset)
+   - Working with remotes (adding a remote, fetching, pulling, pushing)
+
+4. Conclusion and Next Steps
+   - Recap of covered topics
+   - Encouragement to practice with simple projects
+   - Preview of branching and more advanced topics for future sessions
+
+LTS: latest stable version -> 
+
+yanistriantos yanarosbaby@gmail.com

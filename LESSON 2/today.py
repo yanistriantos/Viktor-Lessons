@@ -13,11 +13,19 @@
 #    print("Can drive a car")
 
 
-kg = int(input("Please enter your kg: "))
-if kg >= 120:
-    print("Your fat")
-else: 
-    print("Not fat")
+years = int(input("What age are you: "))
+if years >= 18:
+    print("You can vote")
+else:
+    print("You cant") 
 
-
+age = 55
+if age < 7:
+    print("child")
+elif age <= 19:
+    print("teen")
+elif age <= 50:
+    print("middle age")
+else:
+    print("old")
 

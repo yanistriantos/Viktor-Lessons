@@ -16,3 +16,8 @@ A: A type that can hold multiple values
 
 Q: Nesting
 A: Put multiple things one inside another
+
+git basic commands:
+    git add .
+    git commit -m "created twenty functions"
+    git push
