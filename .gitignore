@@ -1,1 +1,3 @@
 .vsocde/
+env/
+__pycache__

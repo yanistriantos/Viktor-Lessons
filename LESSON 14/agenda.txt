@@ -1,0 +1,30 @@
+OOP in-depth:
+Encapsulation: Think of encapsulation as putting data and the methods that operate on that data into a single unit, often called a class.
+It's like a black box where you interact with the object using its methods, and you don't need to worry about how it's implemented internally.
+Abstraction: Abstraction means simplifying complex reality by modeling classes based on the essential properties and behaviors, hiding unnecessary details. You focus on what an object does, not how it does it.
+Example: A BankAccount class abstracts away the complexities of banking systems. Users interact with methods like deposit() and withdraw(), without needing to know the intricate banking processes happening behind the scenes.
+Inheritance: Inheritance allows you to create new classes based on existing ones. It's like building on top of what already exists, inheriting attributes and behaviors from a parent class.
+Polymorphism: Polymorphism is one of the fundamental principles of Object-Oriented Programming (OOP). It allows objects of different classes to be treated as objects of a common superclass. This concept enables you to write more flexible and reusable code by abstracting away the specific details of individual classes and focusing on their common behaviors or interfaces. .Achieved trough method overriding
+
+Термини:
+Duck Typing: Python следва "duck typing" принципа, който следи че ако една кокошка има клюн като на патица, крила като на патица може да се счете, че е патица.
+English: if an object walks like a duck and quacks like a duck, it will be treated as a duck. 
+
+Pip and dependencies:
+
+PIP -> Preferred Installer Programmer
+
+PyPI - Python Package Index
+
+Think of pip as your personal assistant for managing Python packages.
+It stands for "preferred installer program" because, well, it's the preferred tool for installing Python packages.
+Imagine you're building a house and you need different tools and materials to complete it. Python packages are like those tools and materials.
+They're collections of code that other developers have written to perform specific tasks, like handling dates, making HTTP requests, or building web applications.
+Now, just like you wouldn't want to go to multiple stores to get all the tools and materials you need for your house, you wouldn't want to scour the internet
+for each individual Python package you need. That's where pip and centralized repositories come in.
+
+Pip connects to centralized repositories, like the Python Package Index (PyPI), which is like a giant warehouse full of Python packages.
+When you tell pip to install a package, it goes to PyPI, finds the package you want, and fetches it for you. It handles all the details of
+downloading, installing, and managing dependencies (other packages that your package needs to work properly).
+So, pip and centralized repositories make it easy for Python developers to find, install, and manage the packages they need for
+their projects, without having to hunt them down manually. It's like having a super-efficient delivery service for all your Python package needs

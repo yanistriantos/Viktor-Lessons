@@ -1,0 +1,2 @@
+Item: Sword Description: A sharp blade
+Item: Healing Potion Description: Restores 20 HP
