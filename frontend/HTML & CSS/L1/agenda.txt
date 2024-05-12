@@ -1,0 +1,38 @@
+HTML (Hyper Text Markup Language) is almost an language :D which is the most basic building block of the web
+It is called markup because it defines (marks) the structure of the web page
+
+What is a web page? A structure of text and sections
+
+We split our web page into two semantic parts:
+    1. The metadata (head tag)
+    2. The actual markup (body tag)
+and wrap all this in an html tag 
+
+a tag is simply the syntax of html to define a node (something) on the web page we are building (node === something on the page)
+an element is a tag which first opens e.g. <p> Hello </p> and then closes the <p> is the opening of the tag and the </p> is the closing
+
+void elements -> elements with no displayable content:
+    <img src="images/firefox-icon.png" alt="An image of the firefox logo" />
+    <meta charset="utf-8" />
+
+Anatomy of the structure of an HTML file:
+
+<!DOCTYPE html> - required preamble was useful in the 90s and it is just a requirements nowadays
+<html></html> - wraps (обвива) all the content of your web page. Sometime referred as the 'root' element
+<head></head> - metadata
+<body></body> - all the content that you want to show to the viewers of your web page 
+
+attribute - provide additional information about an html element e.g. src and alt attribtes on the img element
+
+Headings: <h1> - <h5> - association with book chapter headings, subheadings, etc...
+
+Comments: <!-- <comment> --> (weird compared to other LANGUAGES' comment syntax)
+
+Paragraphs (text element): <p>Hello</p>
+Inline paragraph (inline text element): <span>Hello</span> 
+
+Lists:
+    1. Ordered Lists <ol> - order matters (recipe)
+    2. Unordered Lists <ul> - order doesn't matter (shopping list)
+
+    Each item inside a list is wrapped by a <li> (list item) element

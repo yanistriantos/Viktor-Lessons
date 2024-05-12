@@ -1,0 +1,80 @@
+Types of CSS selectors:
+
+!!! Will use those 3 mainly !!!
+
+Element (type) selector: 
+
+p {
+    color: blue;
+}
+
+Class Selector: Selects all elements with a specific class attribute.
+
+
+.highlight {
+    background-color: yellow;
+}
+
+ID Selector: Selects the element with a specific ID. Since IDs are unique, this should only apply to one element.
+
+#main-title {
+    font-size: 24px;
+}
+
+Attribute Selector: Selects elements based on an attribute or attribute value.
+
+input[type="text"] {
+    border: 1px solid grey;
+}
+
+! Pseudo selectors are improtant (:hover, etc...)
+
+Pseudo-class Selector: Selects elements in a specific state, e.g., :hover, :first-child.
+
+a:hover {
+    color: red;
+}
+
+Pseudo-element Selector: Selects part of an element, e.g., ::before, ::after.
+
+p::first-line {
+    font-weight: bold;
+}
+
+!!! IMPORTANT
+
+Descendant Selector: Selects elements that are descendants of another specified element.
+
+div p {
+    color: green;
+}
+
+Child Selector: Selects direct child elements only.
+
+ul > li {
+    padding: 5px;
+}
+
+Adjacent Sibling Selector: Selects an element that is directly after another specific element.
+h1 + p {
+    margin-top: 0;
+}
+
+! Probaby will never use this one :D
+
+General Sibling Selector: Selects all elements that are siblings of a specified element.
+
+h1 ~ p {
+    color: blue;
+}
+
+Specificity Calculation
+Specificity determines which CSS rule is applied by the browsers when multiple rules could apply to the same element.
+It's calculated based on the types of selectors used in a rule:
+
+Inline styles: Applied directly within an HTML element (specificity: 1,0,0,0)
+IDs: (specificity: 0,1,0,0)
+Classes, attributes, and pseudo-classes: (specificity: 0,0,1,0)
+Elements and pseudo-elements: (specificity: 0,0,0,1)
+
+Inline style > ID > class, attribute, pseudo-class > plain elements and pseudo-elements

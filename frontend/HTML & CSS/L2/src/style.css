@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#content {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 20px;
+}
+
+.title {
+  color: navy;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+a:hover {
+  color: red;
+}
+
+ul li:first-child {
+  font-weight: bold;
+}
+
+ul > li {
+  color: green;
+}
