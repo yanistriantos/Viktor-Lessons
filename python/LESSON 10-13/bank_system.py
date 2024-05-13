@@ -25,13 +25,6 @@ class BankAccount:
 
     def check_balance(self):
 
-
-
-
-
-
-
-        
         print(f"Account balance for {self.account_holder}: ${self.balance}")
 
     # 'dunder', 'special', 'magic' methods
