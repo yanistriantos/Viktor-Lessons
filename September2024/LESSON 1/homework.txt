@@ -1,0 +1,11 @@
+Read up on those topics:
+  variables
+  types,
+  converting variable types,
+  how python translates your code to machine code (0's and 1's)
+
+Next lesson goals:
+  be able to set up your own environment locally
+  know all the basic python types
+  know what a variable is
+ 

@@ -1,0 +1,35 @@
+1. Introduction to Version Control and Git
+   - Overview of version control and its importance
+   - History and evolution of Git
+   - Key concepts: distributed version control, snapshots, and changes
+
+2. Getting Started with Git
+   - Installing Git
+   - Basic Git configuration (user name, email)
+        1. git config user.name <user_name>
+        2. git config user.email <user.email>
+   - Introduction to Git repositories (init, clone)
+   git clone using ssh key
+
+3. Git Basics
+   - Understanding the three states (modified, staged, committed) and the working directory
+   - Basic commands:
+      -  git add <filename/direname>: adds the specificed file/directory to the working tree
+      - git add .     : same as above but adds ALL files and ALL directories to the working tree
+      - git commit -m "<msg>": git commit makes a "snapshot / image" of our added files to the working tree
+      - git push: pushes to the remote repository (remote: отдалечен)
+      - git push --set-upstream origin main: when pushing you don't have to write git push origin main, you just write git push 
+      - git remote add origin <ssh-link-to-github>: connects git with github through SSH connection 
+      - git remote -v: checks if the connections between git and github has estbalished correctly
+       
+   - Ignoring files with `.gitignore`
+   - Viewing the commit history
+   - Undoing changes (checkout, revert, reset)
+   - Working with remotes (adding a remote, fetching, pulling, pushing)
+
+4. Conclusion and Next Steps
+   - Recap of covered topics
+   - Encouragement to practice with simple projects
+   - Preview of branching and more advanced topics for future sessions
+
+general terms spreadsheet -> LTS: latest stable version -> 

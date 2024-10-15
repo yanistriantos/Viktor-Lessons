@@ -1,0 +1,14 @@
+syntax (syntaxis): 
+code block: each statement excpects a doubel colon (:) and a 1 tab indendantion
+keyword / reserved word: reserved wrods by python for some functionality which prohibits you from using them as names
+
+if a > b:
+    ...
+    ...
+    ...
+
+function definition: defining the function and what it is GOIND to do
+function call: actually invoke a function providing real values as arguments
+<>: 
+
+note: functions can be explained at a very low level (Stack Memory)
