@@ -12,30 +12,10 @@
 # str.islower()  4.
 # str.isupper()  5.
 if __name__ == '__main__':
-   s = input("Enter a string: ")
-
-if any(c.isdigit() for c in s):
-    print(True)
-else:
-    print(False)
-
-if any(c.islower() for c in s):
-    print(True)
-else:
-    print(False)
-
-if any(c.isupper() for c in s):
-    print(True)
-else:
-    print(False)
-
-if any(c.isalpha() for c in s):
-    print(True)
-else:
-    print(False)
-
-if any(c.isalnum() for c in s):
-    print(True)
-else:
-    print(False)
-
+    s = input("Enter a string: ")
+    print(any(c.isalnum() for c in s))
+    print(any(c.isalpha() for c in s))
+    print(any(c.isdigit() for c in s))
+    print(any(c.islower() for c in s))
+    print(any(c.isupper() for c in s))
+d
