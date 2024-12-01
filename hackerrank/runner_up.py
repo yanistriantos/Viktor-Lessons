@@ -6,3 +6,7 @@
 if __name__ == '__main__':
     n = int(input())
     arr = map(int, input().split())
+    
+    for scores in n:
+        for scores in arr:
+            print(max(arr))

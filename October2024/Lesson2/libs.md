@@ -2,7 +2,7 @@
 
 ## Exercise 1: Working with the `os` and `shutil` Libraries
 
-**Task:**  
+ 
 Using the `os` library, list all files and directories in the current working directory. Then, create a new directory named `test_dir` using the same library. After that, with the help of the `shutil` library, move all `.txt` files from the current directory into the newly created `test_dir`.
 
 - **Key Libraries:**

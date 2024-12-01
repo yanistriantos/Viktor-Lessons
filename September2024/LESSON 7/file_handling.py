@@ -14,3 +14,4 @@ def work_with_file(file_name, mode):
 work_with_file("my_file.txt", "r")
 
 # IO operationrs IO -> Input / Output
+ 
